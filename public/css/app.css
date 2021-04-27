@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+
+body {
+    margin: 0;
+    background-image: url("/images/background.jpg");
+    font-family: 'Audiowide', cursive!important;
+}
+#cover {
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to top, rgba(0, 0, 0,0), rgba(0, 0, 0,1));
+    position: absolute;
+}
+
+#bank {
+    height: 50px;
+    background: rgba(191, 191, 191, 0.3);
+}
+
+#results {
+    background: rgba(0, 0, 0,0.5);
+}
+
+.flags {
+    max-width: 25px;
+}
+
